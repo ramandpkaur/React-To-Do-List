@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+form > * {
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  font-family:'Times New Roman', Times, serif;
+}
+form h3 {
+  font-size: 1.5rem;
+}
+
+button[type='submit'] {
+  background-color: rgb(96, 11, 175);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  padding: 1.5vmin;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: blueviolet;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
